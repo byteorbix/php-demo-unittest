@@ -1,8 +1,7 @@
-## PHP Demo Project with Unit Tests
+## PHP Demo Project with Unit Tests and CI Integration
 
-Here are the steps to set up your environment in Visual Studio Code for this PHP project:
+Here are the steps to set up your environment in Visual Studio Code for this PHP project.
 
----
 
 ### 1. Install Required Extensions
 Install these VS Code extensions:
@@ -82,3 +81,6 @@ Run tests via the terminal:
 composer test
 ```
 Or use the **Testing** panel in VS Code (beaker icon) to run/debug individual tests.
+
+### 7. CI Integration
+There is a GitHub Workflow definded, that gets triggered when pushing to the repository. It will then run the unit tests and report on failure and success.
