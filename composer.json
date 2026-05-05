@@ -2,6 +2,7 @@
     "name": "app/my-php-project",
     "description": "PHP sample project with unit tests",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": ">=8.2"
     },
