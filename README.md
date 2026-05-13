@@ -11,7 +11,7 @@ Install these VS Code extensions:
 
 
 ### 2. Install Dependencies
-Open the integrated terminal (**Ctrl+`**) and run:
+Open the integrated terminal (**Ctrl+`**) and run from the repository root folder:
 ```sh
 composer install
 ```
